@@ -26,19 +26,6 @@
       background: #020617;
       color: white;
     }
-      /* =========================
-      MOBILE IMAGE SWIPE
-      ========================= */
-
-      [id^="project"] {
-      touch-action: pan-y;
-      user-select: none;
-      -webkit-user-select: none;
-      }
-
-      [id^="project"] img {
-      -webkit-user-drag: none;
-      }
 
     /* =========================
        HERO BACKGROUND
@@ -170,94 +157,6 @@
       transform: translateY(-2px);
       box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
     }
-     /* YOUR EXISTING CSS ABOVE */
-
-      .primary-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
-      }
-
-
-      /* =========================
-        ADD THIS PART
-      ========================= */
-
-      [id^="project"] {
-        touch-action: pan-y;
-        user-select: none;
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-      }
-
-      [id^="project"] img {
-        -webkit-user-drag: none;
-        user-drag: none;
-      }
-
-      .project-slide-out-left {
-        animation: slideOutLeft 0.25s ease forwards;
-      }
-
-      .project-slide-out-right {
-        animation: slideOutRight 0.25s ease forwards;
-      }
-
-      .project-slide-in-left {
-        animation: slideInLeft 0.25s ease forwards;
-      }
-
-      .project-slide-in-right {
-        animation: slideInRight 0.25s ease forwards;
-      }
-
-      @keyframes slideOutLeft {
-        from {
-          transform: translateX(0);
-          opacity: 1;
-        }
-
-        to {
-          transform: translateX(-100%);
-          opacity: 0;
-        }
-      }
-
-      @keyframes slideOutRight {
-        from {
-          transform: translateX(0);
-          opacity: 1;
-        }
-
-        to {
-          transform: translateX(100%);
-          opacity: 0;
-        }
-      }
-
-      @keyframes slideInLeft {
-        from {
-          transform: translateX(100%);
-          opacity: 0;
-        }
-
-        to {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-
-      @keyframes slideInRight {
-        from {
-          transform: translateX(-100%);
-          opacity: 0;
-        }
-
-        to {
-          transform: translateX(0);
-          opacity: 1;
-        }
-      }
-
   </style>
 </head>
 
@@ -776,7 +675,7 @@
           <div id="project3">
 
             <img
-              src="JRJR.JPG"
+              src="iJRJR.JPG"
               class="project3-image w-full h-64 object-cover"
               alt="Solar PV project">
 
@@ -1131,4 +1030,6 @@
 </body>
 
 </html>
+
+
 
