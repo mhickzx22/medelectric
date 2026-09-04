@@ -476,94 +476,71 @@
 
           <!-- Images -->
 
-          <div id="project1" class="relative overflow-hidden">
-
-            <img
-              src="GATEWAY.JPG"
-              class="project1-image w-full h-64 object-cover"
-              alt="Residential electrical project">
-
-            <img
-              src="JR.JPG"
-              class="project1-image w-full h-64 object-cover hidden"
-              alt="Residential electrical project">
-
-            <img
-              src="KOKOK3.JPG"
-              class="project1-image w-full h-64 object-cover hidden"
-              alt="Residential electrical project">
-
-          </div>
-
-
-          <!-- LEFT BUTTON -->
-
-          <button
-            onclick="changeImage('project1', -1)"
-            class="absolute left-3 top-1/2 -translate-y-1/2
-                   w-10 h-10 rounded-full
-                   bg-black/60 hover:bg-blue-600
-                   flex items-center justify-center
-                   text-white text-xl
-                   opacity-0 group-hover:opacity-100
-                   transition">
-
-            ‹
-
-          </button>
-
-
-          <!-- RIGHT BUTTON -->
-
-          <button
-            onclick="changeImage('project1', 1)"
-            class="absolute right-3 top-1/2 -translate-y-1/2
-                   w-10 h-10 rounded-full
-                   bg-black/60 hover:bg-blue-600
-                   flex items-center justify-center
-                   text-white text-xl
-                   opacity-0 group-hover:opacity-100
-                   transition">
-
-            ›
-
-          </button>
-
-
-          <!-- IMAGE INDICATORS -->
-
-          <div class="absolute bottom-3 left-0 right-0
-                      flex justify-center gap-2">
-
-            <span class="project1-dot w-2 h-2 rounded-full bg-white"></span>
-            <span class="project1-dot w-2 h-2 rounded-full bg-white/40"></span>
-            <span class="project1-dot w-2 h-2 rounded-full bg-white/40"></span>
-
-          </div>
-
+        <div id="carousel-project1" class="relative w-full h-64 overflow-hidden">
+        <img src="GATEWAY.JPG.jpg"
+           class="carousel-image w-full h-64 object-cover">
+    
+        <img src="JR.JPG.jpg"
+           class="carousel-image hidden w-full h-64 object-cover">
+    
+        <img src="KOKOK2.JPG.jpg"
+           class="carousel-image hidden w-full h-64 object-cover">
+    
+        <!-- Left -->
+        <button onclick="changeImage('project1', -1)"
+              class="absolute left-3 top-1/2 -translate-y-1/2
+                     bg-black/50 hover:bg-black/70
+                     text-white w-10 h-10 rounded-full">
+                      &#10094;
+        </button>
+    
+        <!-- Right -->
+        <button onclick="changeImage('project1', 1)"
+              class="absolute right-3 top-1/2 -translate-y-1/2
+                     bg-black/50 hover:bg-black/70
+                     text-white w-10 h-10 rounded-full">
+                      &#10095;
+        </button>
         </div>
-
-
-        <!-- PROJECT DETAILS -->
-
-        <div class="p-6">
-
-          <p class="text-blue-400 text-xs uppercase tracking-wider font-semibold">
-            Residential
-          </p>
-
-          <h3 class="text-xl font-bold mt-2">
-            Residential Electrical Installation
-          </h3>
-
-          <p class="text-gray-400 text-sm mt-3 leading-relaxed">
-            Complete electrical installation and system setup
-            for a residential project.
-          </p>
-
-        </div>
-
-      </div>
+                ›
+    
+        </button>
+    
+    
+              <!-- IMAGE INDICATORS -->
+    
+              <div class="absolute bottom-3 left-0 right-0
+                          flex justify-center gap-2">
+    
+                <span class="project1-dot w-2 h-2 rounded-full bg-white"></span>
+                <span class="project1-dot w-2 h-2 rounded-full bg-white/40"></span>
+                <span class="project1-dot w-2 h-2 rounded-full bg-white/40"></span>
+    
+              </div>
+    
+            </div>
+    
+    
+            <!-- PROJECT DETAILS -->
+    
+            <div class="p-6">
+    
+              <p class="text-blue-400 text-xs uppercase tracking-wider font-semibold">
+                Residential
+              </p>
+    
+              <h3 class="text-xl font-bold mt-2">
+                Residential Electrical Installation
+              </h3>
+    
+              <p class="text-gray-400 text-sm mt-3 leading-relaxed">
+                Complete electrical installation and system setup
+                for a residential project.
+              </p>
+    
+            </div>
+    
+          </div>
 
 
 
